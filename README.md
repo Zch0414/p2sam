@@ -1,6 +1,6 @@
 # P<sup>2</sup>SAM
 > Official PyTorch implementation of the following paper:\
-> Part-aware Personalized Segment Anything Model for Patient-Specific Segmentation\
+> Part-aware Prompted Segment Anything Model for Adaptive Segmentation\
 > Chenhui Zhao and Liyue Shen\
 > University of Michigan\
 > [![arXiv](https://img.shields.io/badge/arXiv%20paper-2403.05433-b31b1b.svg)](https://arxiv.org/abs/2403.05433)&nbsp;
