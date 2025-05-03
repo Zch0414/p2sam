@@ -6,7 +6,7 @@
 > [![arXiv](https://img.shields.io/badge/arXiv%20paper-2403.05433-b31b1b.svg)](https://arxiv.org/abs/2403.05433)&nbsp;
 
 ## Overview
-<p align="center"><img src="https://github.com/Zch0414/p2sam/blob/master/figures/intro.jpg" width=96% height=96% class="center"></p>
+<p align="center"><img src="https://github.com/Zch0414/p2sam/blob/master/figures/github.jpg" width=96% height=96% class="center"></p>
 
 We propose P<sup>2</sup>SAM, a training-free method that adapts a promptable segmentation model to new patients using only one-shot patient-specific data. 
 P<sup>2</sup>SAM incorporates a **part-aware prompt mechanism** and a **distribution-based retrieval approach** to enhance generalization across:
