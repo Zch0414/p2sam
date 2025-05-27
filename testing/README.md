@@ -20,7 +20,7 @@ python /direct_transfer/direct_transfer_4d_lung.py\
 
 **P<sup>2</sup>SAM**
 
-```
+```bash
 python /p2sam/p2sam_4d_lung.py\
   --data 'data/lung_pro/4d_lung_multi_visits'\
   --outdir 'results/p2sam/4d_lung'\
@@ -37,7 +37,7 @@ python /p2sam/p2sam_4d_lung.py\
 
 **Direct-transfer Baseline**
 
-```
+```bash
 python /direct_transfer/direct_transfer_cvc_clinicdb.py\
   --data 'data/endoscopy_pro/cvc_clinicdb'\
   --outdir 'results/direct_transfer/cvc_clinicdb'\
@@ -48,7 +48,7 @@ python /direct_transfer/direct_transfer_cvc_clinicdb.py\
 
 **P<sup>2</sup>SAM**
 
-```
+```bash
 python /p2sam/p2sam_cvc_clinicdb.py\
   --data 'data/endoscopy_pro/cvc_clinicdb'\
   --outdir 'results/p2sam/cvc_clinicdb'\
@@ -63,7 +63,7 @@ python /p2sam/p2sam_cvc_clinicdb.py\
 
 ## Personalized Segmentation on PerSeg
 
-```
+```bash
 python /p2sam/p2sam_perseg.py\
   --data 'data/perseg'\
   --outdir 'results/p2sam/perseg'\
