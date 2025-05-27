@@ -3,7 +3,7 @@
 > Part-aware Prompted Segment Anything Model for Adaptive Segmentation\
 > Chenhui Zhao and Liyue Shen\
 > University of Michigan\
-> [![arXiv](https://img.shields.io/badge/arXiv%20paper-2403.05433-b31b1b.svg)](https://arxiv.org/abs/2403.05433)&nbsp;
+> [![arXiv](https://img.shields.io/badge/arXiv%20paper-2403.05433-b31b1b.svg)](https://arxiv.org/abs/2403.05433v2)&nbsp;
 
 ## Overview
 <p align="center"><img src="https://github.com/Zch0414/p2sam/blob/master/figures/github.jpg" width=96% height=96% class="center"></p>
@@ -16,6 +16,7 @@ P<sup>2</sup>SAM incorporates a **part-aware prompt mechanism** and a **distribu
 - **Domains:** P<sup>2</sup>SAM performs effectively in both medical and natural image domains.
 
 ## Updates
+- **(2025-05)** P<sup>2</sup>SAM is accepted by TMLR!
 - **(2025-01)** Release P<sup>2</sup>SAM's SAM fine-tuning code and fine-tuned models.
 - **(2025-01)** Release P<sup>2</sup>SAM code for adaptive nsclc segmentation.
 - **(2025-01)** Release P<sup>2</sup>SAM code for endoscopy video segmentation.
@@ -24,7 +25,7 @@ P<sup>2</sup>SAM incorporates a **part-aware prompt mechanism** and a **distribu
 ## Getting Started
 
 Create an Python environment with:
-```
+```bash
 conda env create -f environment.yaml
 ```
 
@@ -49,7 +50,7 @@ repositories.
 
 ## Citation
 If you find this repository helpful, please consider citing:
-```
+```bib
 @article{zhao2024part,
   title={Part-aware Personalized Segment Anything Model for Patient-Specific Segmentation},
   author={Zhao, Chenhui and Shen, Liyue},
