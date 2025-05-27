@@ -6,7 +6,7 @@ We provide an implementation to fine-tune SAM on custom datasets, adhering close
 
 **Base w/o LoRA**
 
-```
+```bash
 python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py\
     --online-record \
     --name '${run_name}'\
@@ -28,7 +28,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py\
 
 **Base w/ LoRA**
 
-```
+```bash
 python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py\
     --online-record \
     --name '${run_name}'\
@@ -52,7 +52,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py\
 
 **Large w/o LoRA**
 
-```
+```bash
 python -m torch.distributed.launch --nproc_per_node=2 --use_env main.py\
     --online-record \
     --name '${run_name}'\
@@ -74,7 +74,7 @@ python -m torch.distributed.launch --nproc_per_node=2 --use_env main.py\
 
 **Large w/ LoRA**
 
-```
+```bash
 python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py\
     --online-record \
     --name '${run_name}'\
@@ -123,7 +123,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py\
 
 **Base w/ LoRA**
 
-```
+```bash
 python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py\
     --online-record \
     --name '${run_name}'\
@@ -148,7 +148,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py\
 
 **Large w/o LoRA**
 
-```
+```bash
 python -m torch.distributed.launch --nproc_per_node=2 --use_env main.py\
     --online-record \
     --name '${run_name}'\
@@ -171,7 +171,7 @@ python -m torch.distributed.launch --nproc_per_node=2 --use_env main.py\
 
 **Large w/ LoRA**
 
-```
+```bash
 python -m torch.distributed.launch --nproc_per_node=2 --use_env main.py\
     --online-record \
     --name '${run_name}'\
