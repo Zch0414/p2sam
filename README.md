@@ -51,10 +51,9 @@ repositories.
 ## Citation
 If you find this repository helpful, please consider citing:
 ```bib
-@article{zhao2024part,
-  title={Part-aware Personalized Segment Anything Model for Patient-Specific Segmentation},
+@article{zhaopart,
+  title={Part-aware Prompted Segment Anything Model for Adaptive Segmentation},
   author={Zhao, Chenhui and Shen, Liyue},
-  journal={arXiv preprint arXiv:2403.05433},
-  year={2024}
+  journal={Transactions on Machine Learning Research}
 }
 ```
