@@ -15,6 +15,7 @@ P<sup>2</sup>SAM incorporates a **part-aware prompt mechanism** and a **distribu
 - **Domains:** P<sup>2</sup>SAM performs effectively in both medical and natural image domains.
 
 ## Updates
+- **(2025-07)** P<sup>2</sup>SAM's code has been released officially at [BioMedAI Repo](https://github.com/BioMed-AI-Lab-U-Michgan/p2sam).
 - **(2025-05)** P<sup>2</sup>SAM is accepted by TMLR!
 - **(2025-01)** Release P<sup>2</sup>SAM's SAM fine-tuning code and fine-tuned models.
 - **(2025-01)** Release P<sup>2</sup>SAM code for adaptive nsclc segmentation.
