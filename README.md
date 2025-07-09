@@ -1,5 +1,4 @@
 # P<sup>2</sup>SAM
-> Official PyTorch implementation of the following paper:\
 > Part-aware Prompted Segment Anything Model for Adaptive Segmentation\
 > Chenhui Zhao and Liyue Shen\
 > University of Michigan\
